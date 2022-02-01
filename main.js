@@ -128,7 +128,7 @@ function playGame() {
             resultMessage = 'Congratulazioni sei il nuovo vincitore!'
         } else {
             // ALTRIMENTI L'UTENTE HA PERSO - MESSAGGIO
-            resultMessage = 'Mi dispiace, hai perso! Hai effettuato ' + rightAttemps.lenght + ' tentativi!'
+            resultMessage = 'Mi dispiace, hai perso! Hai effettuato ' + rightAttemps.length + ' tentativi!'
         }
 
         // MESSAGGIO DI FINE GIOCO
@@ -161,8 +161,11 @@ function generateBombComeArray (maxNumber, maxBombNumber) {
     // CREO ARRAY VUOTO PER GENERARE LE BOMBE
     let bombGenerateArray = [];
 
-    while (bombGenerateArray.lenght < maxBombNumber) {
+    console.log(bombGenerateArray.length, maxBombNumber)
+
+    while (bombGenerateArray.length < maxBombNumber) {
         const bombNumberRandom = getRandomNumber(1, maxNumber);
+        console.log(bombNumberRandom)
 
         // SE bombGenerateArray NON INCLUDE UNA BOMBA, ALLORA CONTINUA
         if (!bombGenerateArray.includes(bombNumberRandom)) {
