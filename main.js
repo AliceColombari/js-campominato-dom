@@ -37,6 +37,7 @@ function playGame() {
 
     // IMPOSTO UNA VARIABILE PER IL NUMERO DELLE BOMBE 
     const maxBombNumber = 16;
+    console.log('Avvio del gioco');
 
     // SCELTA LIVELLO DA PARTE DEL GIOCATORE - SCELTA
     const userDifficulty = document.getElementById('leveltype').value;
@@ -72,7 +73,7 @@ function playGame() {
 
     // CREO UN ARRAY DOVE INSERISCO I TENTATIVI DELL'UTENTE - CELLE CLICCATE
     const rightAttemps = [];
-    console.log(rightAttemps);
+    console.log('Tentativi utente: ' + rightAttemps);
 
 
     // CREO LE CELLE IN BASE ALLA SCELTA DEL LIVELLO SELEZIONATO
