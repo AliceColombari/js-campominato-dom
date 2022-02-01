@@ -16,11 +16,16 @@ body {
 
 .active{
     background-color: #5a86d4;
-    color: white;
+    color: #fff;
 }
 
 .hidden{
     display: none;
+}
+
+.red-bomb {
+    background-color: red;
+    color: #fff;
 }
 
 /* HEADER */
