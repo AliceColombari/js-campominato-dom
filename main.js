@@ -69,7 +69,6 @@ function playGame() {
 
     // CALCOLO IL NUMERO MASSIMO DI TENTATIVI CHE L'UTENTE PU0' FARE 
     const maxAttemps = parseInt(numbersOfCells - bombComeArray.lenght);
-    console.log(maxAttemps);
 
     // CREO UN ARRAY DOVE INSERISCO I TENTATIVI DELL'UTENTE - CELLE CLICCATE
     const rightAttemps = [];
