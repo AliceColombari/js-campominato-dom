@@ -1,8 +1,17 @@
+// INDICAZIONI JS-CAMPOMINATO-GRID
 // utente indica un livello di difficoltà in base al quale viene generata una griglia di gioco quadrata
 // con difficoltà 1 => tra 1 e 100
 // con difficoltà 2 => tra 1 e 81
 // con difficoltà 3 => tra 1 e 49
 // quando l'utente clicca sulla cella, la cella cliccata cambia colore
+
+// INDICAZIONI JS-CAMPOMINATO-DOM || AGGIUNTA BOMBE
+// Il computer deve generare 16 numeri casuali nello stesso range della difficoltà prescelta: le bombe.
+// I numeri nella lista delle bombe non possono essere duplicati.
+// la cella si colora di rosso e la partita termina, 
+// altrimenti la cella cliccata si colora di azzurro e l’utente può continuare a cliccare sulle altre celle
+// La partita termina quando il giocatore clicca su una bomba o raggiunge il numero massimo possibile di numeri consentiti
+// Al termine della partita il software deve comunicare il punteggio
 
 
 // SELEZIONO BUTTON PLAY, AL CLICK SU DI ESSO SI GENERA UN EVENTO -> APPARE GRIGLIA
