@@ -84,17 +84,23 @@ button {
 /* MAIN */
 main{
     width: 100%;
-    height: calc(100% - 140px);
+    height: calc(100vh - 140px);
     background-color: #7fffd4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#intro-text, #endgame {
+    margin: 30px auto;
 }
 
 /* GRIGLIA CELLE */
 .games-grid{
     width: 500px;
     height: 500px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
